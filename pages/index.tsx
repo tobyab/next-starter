@@ -1,5 +1,6 @@
 import type { NextPage } from "next"
 import Head from "next/head"
+import Link from "next/link"
 
 const Home: NextPage = () => {
   return (
@@ -11,14 +12,11 @@ const Home: NextPage = () => {
       </Head>
       <h1 className="text-6xl font-bold">Hello from Next.js!</h1>
       <h2>Next.js, TypeScript and Tailwind.</h2>
-        <a
-          href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdevelopedbytoby%2Fnextjs-typescript-tailwind-starter"
-        >
-          <img 
-            src="https://vercel.com/button" 
-            alt="Deploy with Vercel"
-          />
-        </a>
+      <Link
+        href="https://github.com/developedbytoby/nextjs-ts-tailwind-starter#developedbytobynextjs-ts-tailwind-starter"
+      >
+        Check this out if you need a hand
+      </Link>
     </div>
   )
 }

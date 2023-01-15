@@ -1,6 +1,6 @@
 # next-starter
 
-Super simple Next.js start with TypeScript and Tailwind.
+Super simple Next.js starter with TypeScript and Tailwind.
 
 ## Getting started
 
